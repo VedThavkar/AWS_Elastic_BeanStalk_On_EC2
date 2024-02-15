@@ -5,7 +5,7 @@ on :
             - "main"
 jobs:
     deploy: 
-        runs-on: amazon-linux-2
+        runs-on: amazon-linux-2023:latest
         steps:
         - name: Checkout source code
           uses: actions/checkout@v2
