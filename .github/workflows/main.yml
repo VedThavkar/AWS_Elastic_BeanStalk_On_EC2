@@ -19,7 +19,7 @@ jobs:
             aws_access_key: ${{ secrets.AWS_ADMIN_ACCESS_KEY_ID }}
             aws_secret_key: ${{ secrets.AWS_ADMIN_SECRET_ACCESS_KEY_ID }}
             application_name: React-App
-            environment_name: React-App-env
+            environment_name: React-App-env-1
             version_label: ${{ github.sha }}
             existing_bucket_name: tap-balti
             region: ap-south-1
